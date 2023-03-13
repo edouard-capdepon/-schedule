@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="AnchorPanePlanningId" maxHeight="720.0" maxWidth="1280.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" stylesheets="@stylePlanning.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projetplanning.PlanningController">
+
+   <children>
+      <GridPane layoutX="46.0" layoutY="200.0" prefHeight="445.0" prefWidth="1188.0" style="-fx-background-color: #A9A9A9#A9A9A9;" styleClass="grid-pane" stylesheets="@stylePlanning.css" AnchorPane.bottomAnchor="75.0" AnchorPane.leftAnchor="46.0" AnchorPane.rightAnchor="46.0" AnchorPane.topAnchor="200.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="215.0" minHeight="10.0" prefHeight="182.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="571.0" minHeight="0.0" prefHeight="182.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="820.0" minHeight="10.0" prefHeight="182.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="820.0" minHeight="10.0" prefHeight="182.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="820.0" minHeight="10.0" prefHeight="182.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label fx:id="day1" alignment="TOP_LEFT" prefHeight="89.0" prefWidth="159.0">
+               <GridPane.margin>
+                  <Insets top="2.0" />
+               </GridPane.margin></Label>
+            <Label fx:id="day2" alignment="TOP_LEFT" prefHeight="90.0" prefWidth="173.0" text="  mardi" GridPane.columnIndex="1" />
+            <Label fx:id="day3" alignment="TOP_LEFT" prefHeight="90.0" prefWidth="175.0" text="  mercredi" GridPane.columnIndex="2" />
+            <Label fx:id="day4" alignment="TOP_LEFT" prefHeight="90.0" prefWidth="174.0" text="  jeudi" GridPane.columnIndex="3" />
+            <Label fx:id="day5" alignment="TOP_LEFT" prefHeight="90.0" prefWidth="170.0" text="  vendredi" GridPane.columnIndex="4" />
+            <Label fx:id="day6" alignment="TOP_LEFT" prefHeight="90.0" prefWidth="186.0" text="  samedi" GridPane.columnIndex="5" />
+            <Label fx:id="day7" alignment="TOP_LEFT" prefHeight="90.0" prefWidth="174.0" text="  dimanche" GridPane.columnIndex="6" />
+            <Button fx:id="j02" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#getPlanningJour" opacity="0.0" prefHeight="388.0" prefWidth="720.0" GridPane.columnIndex="1">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </Button>
+
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e5ecf2" height="88.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="171.0" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e5ecf2" height="88.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="176.0" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e5ecf2" height="88.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="171.0" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e5ecf2" height="88.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" styleClass="rectangleChange" width="168.0" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+            <Label alignment="TOP_LEFT" prefHeight="97.0" prefWidth="184.0" text="08" GridPane.rowIndex="1" />
+            <Label alignment="TOP_LEFT" prefHeight="98.0" prefWidth="187.0" text="09" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label alignment="TOP_LEFT" prefHeight="214.0" prefWidth="347.0" text="15" GridPane.rowIndex="2" />
+            <Label alignment="TOP_LEFT" prefHeight="147.0" prefWidth="342.0" text="22" GridPane.rowIndex="3" />
+            <Label alignment="TOP_LEFT" prefHeight="268.0" prefWidth="335.0" text="29" GridPane.rowIndex="4" />
+            <Label alignment="TOP_LEFT" prefHeight="215.0" prefWidth="297.0" text="30" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Label alignment="TOP_LEFT" prefHeight="207.0" prefWidth="422.0" text="16" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Label alignment="TOP_LEFT" prefHeight="160.0" prefWidth="275.0" text="23" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Label alignment="TOP_LEFT" prefHeight="150.0" prefWidth="276.0" text="31" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Label alignment="TOP_LEFT" prefHeight="204.0" prefWidth="331.0" text="24" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Label alignment="TOP_LEFT" prefHeight="180.0" prefWidth="295.0" text="17" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Label alignment="TOP_LEFT" prefHeight="123.0" prefWidth="207.0" text="10" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Label alignment="TOP_LEFT" prefHeight="159.0" prefWidth="301.0" text="18" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Label alignment="TOP_LEFT" prefHeight="114.0" prefWidth="199.0" text="11" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Label alignment="TOP_LEFT" prefHeight="133.0" prefWidth="255.0" text="25" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Label alignment="TOP_LEFT" prefHeight="157.0" prefWidth="265.0" text="26" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <Label alignment="TOP_LEFT" prefHeight="130.0" prefWidth="257.0" text="19" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <Label alignment="TOP_LEFT" prefHeight="173.0" prefWidth="284.0" text="12" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Label alignment="TOP_LEFT" prefHeight="180.0" prefWidth="254.0" text="13" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+            <Label alignment="TOP_LEFT" prefHeight="195.0" prefWidth="262.0" text="20" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+            <Label alignment="TOP_LEFT" prefHeight="142.0" prefWidth="238.0" text="27" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+            <Label alignment="TOP_LEFT" prefHeight="203.0" prefWidth="227.0" text="14" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+            <Label alignment="TOP_LEFT" prefHeight="166.0" prefWidth="249.0" text="21" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+            <Label alignment="TOP_LEFT" prefHeight="155.0" prefWidth="278.0" text="28" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+            <Button fx:id="j01" mnemonicParsing="false" onAction="#getPlanningJour" opacity="0.0" prefHeight="91.0" prefWidth="170.0" text="j01">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin></Button>
+            <Button fx:id="j03" mnemonicParsing="false" onAction="#getPlanningJour" opacity="0.0" prefHeight="94.0" prefWidth="184.0" GridPane.columnIndex="2" />
+            <Button fx:id="j04" mnemonicParsing="false" onAction="#getPlanningJour" opacity="0.0" prefHeight="94.0" prefWidth="184.0" GridPane.columnIndex="3" />
+            <Button fx:id="j05" mnemonicParsing="false" onAction="#getPlanningJour" opacity="0.0" prefHeight="94.0" prefWidth="184.0" GridPane.columnIndex="4" />
+            <Button fx:id="j06" mnemonicParsing="false" onAction="#getPlanningJour" opacity="0.0" prefHeight="94.0" prefWidth="184.0" GridPane.columnIndex="5" />
+            <Button fx:id="j07" mnemonicParsing="false" onAction="#getPlanningJour" opacity="0.0" prefHeight="94.0" prefWidth="184.0" GridPane.columnIndex="6" />
+            <Button fx:id="j08" contentDisplay="TOP" mnemonicParsing="false" onAction="#getPlanningJour" opacity="0.0" prefHeight="91.0" prefWidth="177.0" GridPane.rowIndex="1" />
+            <Button fx:id="j09" mnemonicParsing="false" onAction="#getPlanningJour" opacity="0.0" prefHeight="112.0" prefWidth="251.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button fx:id="j10" mnemonicParsing="false" onAction="#getPlanningJour" opacity="0.0" prefHeight="92.0" prefWidth="174.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button fx:id="j11" mnemonicParsing="false" onAction="#getPlanningJour" opacity="0.0" prefHeight="94.0" prefWidth="185.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Button fx:id="j12" mnemonicParsing="false" onAction="#getPlanningJour" opacity="0.0" prefHeight="92.0" prefWidth="172.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Button fx:id="j13" mnemonicParsing="false" onAction="#getPlanningJour" opacity="0.0" prefHeight="105.0" prefWidth="182.0" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+            <Button fx:id="j14" mnemonicParsing="false" onAction="#getPlanningJour" opacity="0.0" prefHeight="96.0" prefWidth="178.0" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+            <Button fx:id="j15" mnemonicParsing="false" onAction="#getPlanningJour" opacity="0.0" prefHeight="104.0" prefWidth="219.0" GridPane.rowIndex="2" />
+            <Button fx:id="j16" mnemonicParsing="false" onAction="#getPlanningJour" opacity="0.0" prefHeight="107.0" prefWidth="195.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button fx:id="j17" mnemonicParsing="false" onAction="#getPlanningJour" opacity="0.0" prefHeight="100.0" prefWidth="178.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button fx:id="j18" mnemonicParsing="false" onAction="#getPlanningJour" opacity="0.0" prefHeight="98.0" prefWidth="211.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Button fx:id="j19" mnemonicParsing="false" onAction="#getPlanningJour" opacity="0.0" prefHeight="105.0" prefWidth="203.0" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <Button fx:id="j20" mnemonicParsing="false" onAction="#getPlanningJour" opacity="0.02" prefHeight="119.0" prefWidth="192.0" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+            <Button fx:id="j21" mnemonicParsing="false" onAction="#getPlanningJour" opacity="0.0" prefHeight="150.0" prefWidth="181.0" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+            <Button fx:id="j22" mnemonicParsing="false" onAction="#getPlanningJour" opacity="0.0" prefHeight="132.0" prefWidth="242.0" GridPane.rowIndex="3" />
+            <Button fx:id="j23" mnemonicParsing="false" onAction="#getPlanningJour" opacity="0.0" prefHeight="112.0" prefWidth="249.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Button fx:id="j24" mnemonicParsing="false" onAction="#getPlanningJour" opacity="0.0" prefHeight="134.0" prefWidth="206.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Button fx:id="j25" mnemonicParsing="false" onAction="#getPlanningJour" opacity="0.0" prefHeight="128.0" prefWidth="295.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Button fx:id="j26" mnemonicParsing="false" onAction="#getPlanningJour" opacity="0.0" prefHeight="140.0" prefWidth="202.0" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <Button fx:id="j27" mnemonicParsing="false" onAction="#getPlanningJour" opacity="0.0" prefHeight="114.0" prefWidth="240.0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+            <Button fx:id="j28" mnemonicParsing="false" onAction="#getPlanningJour" opacity="0.0" prefHeight="101.0" prefWidth="278.0" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+            <Rectangle fx:id="recta3" arcHeight="5.0" arcWidth="5.0" fill="#e5ecf2" height="88.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="169.0" GridPane.rowIndex="4" />
+            <Button fx:id="j29" mnemonicParsing="false" onAction="#getPlanningJour" opacity="0.0" prefHeight="124.0" prefWidth="225.0" GridPane.rowIndex="4" />
+            <Rectangle fx:id="rectan2" arcHeight="5.0" arcWidth="5.0" fill="#e5ecf2" height="88.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="170.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Button fx:id="j30" mnemonicParsing="false" onAction="#getPlanningJour" opacity="0.0" prefHeight="139.0" prefWidth="323.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Rectangle fx:id="recteste" arcHeight="5.0" arcWidth="5.0" fill="#e5ecf2" height="88.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="170.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Button fx:id="j31" mnemonicParsing="false" onAction="#getPlanningJour" opacity="0.0" prefHeight="123.0" prefWidth="246.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+         </children>
+      </GridPane>
+      <Label fx:id="myDateJour" layoutX="46.0" layoutY="42.0" prefHeight="49.0" prefWidth="465.0" styleClass="date-du-jour" text="Date du jour" AnchorPane.leftAnchor="46.0" AnchorPane.topAnchor="42.0">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="mylabel" layoutX="57.0" layoutY="159.0" prefHeight="35.0" prefWidth="199.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="myDatePicker" editable="false" layoutX="987.0" layoutY="163.0" prefHeight="26.0" prefWidth="152.0" />
+      <Button fx:id="buttonid" layoutX="1157.0" layoutY="150.0" mnemonicParsing="false" onAction="#getDate" prefHeight="26.0" prefWidth="73.0" text="valider" />
+      <Button fx:id="ButtonEvent" layoutX="1153.0" layoutY="681.0" mnemonicParsing="false" onAction="#geteveent" prefHeight="49.0" prefWidth="168.0" text="Gestion de tâche" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="46.0" />
+      <Line endX="1188.0" endY="1.0" layoutX="46.0" layoutY="289.0" startY="1.0" />
+      <Line endX="1188.0" endY="3.0" layoutX="46.0" layoutY="375.0" startY="3.0" />
+      <Line endX="1200.0" endY="1.0" layoutX="34.0" layoutY="466.0" startX="12.0" startY="1.0" />
+      <Line endX="1209.5" layoutX="24.0" layoutY="556.0" startX="22.0" />
+      <Line endX="1.0" endY="33.0" layoutX="215.0" layoutY="167.0" startX="1.0" startY="478.0" />
+      <Line endX="96.0" endY="50.0" layoutX="290.0" layoutY="150.0" startX="96.0" startY="495.0" />
+      <Line endX="7.0" endY="495.0" layoutX="549.0" layoutY="150.0" startX="7.0" startY="50.0" />
+      <Line endX="13.0" endY="482.0" layoutX="713.0" layoutY="163.0" startX="13.0" startY="37.0" />
+      <Line endX="100.0" endY="11.0" layoutX="794.0" layoutY="189.0" startX="102.0" startY="456.0" />
+      <Line endX="78.0" endY="540.0" layoutX="987.0" layoutY="105.0" startX="78.0" startY="95.0" />
+   </children>
+</AnchorPane>

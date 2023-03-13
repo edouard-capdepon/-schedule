@@ -1,0 +1,63 @@
+#ChoiceBoxSupprEventId{
+   -fx-backgroundcolor: #666666;
+   -fx-focus-color: midnightblue;
+   -fx-faint-focus-color: #A9A9A9;
+   -fx-control-inner-background: #FFFDFC;
+   -fx-selection-bar: #666666;
+-fx-selection-bar-text-fill: "white";
+}
+
+#labelSupprEventAlerteId{
+-fx-font-family : "Noto Serif", serif;
+    	-fx-font-size : 15px;
+    	-fx-background-insets : 7px;
+    	-fx-padding : 9px;
+    	-fx-border-insets : 15px;
+}
+
+#ValiderSupprEventAlerteId{
+-fx-font-family : "Noto Serif", serif;
+    -fx-border-color: white;
+    -fx-border-width: 2;
+    -fx-background-radius:0;
+    -fx-background-color: #666666;
+    -fx-background-insets : 9px;
+	-fx-padding : 5px;
+	-fx-border-insets : 9px;
+	-fx-text-fill : white
+}
+#ValiderSupprEventAlerteId:hover{
+-fx-background-color: #A9A9A9;
+	 -fx-scale-y : 1.1;
+	 -fx-effect- : dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0.0, 0, 1);
+ }
+#ValiderSupprEventAlerteId:pressed{
+-fx-scale-y : 0.9;
+	 -fx-scale-y : 0.9;
+}
+#AnnulerSupprEventAlerteId{
+-fx-font-family : "Noto Serif", serif;
+    -fx-border-color: white;
+    -fx-border-width: 2;
+    -fx-background-radius:0;
+    -fx-background-color: #666666;
+    -fx-background-insets : 9px;
+	-fx-padding : 5px;
+	-fx-border-insets : 9px;
+	-fx-text-fill : white
+}
+#AnnulerSupprEventAlerteId:hover{
+-fx-background-color: #A9A9A9;
+	 -fx-scale-y : 1.1;
+	 -fx-effect- : dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0.0, 0, 1);
+}
+#AnnulerSupprEventAlerteId:pressed{
+-fx-scale-y : 0.9;
+	 -fx-scale-y : 0.9;
+}
+
+#AnchorPaneId{
+}
+
+
+

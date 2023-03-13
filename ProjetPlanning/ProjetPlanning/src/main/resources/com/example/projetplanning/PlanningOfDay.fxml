@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="616.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projetplanning.PlanningOfDayController">
+   <children>
+      <Button fx:id="annulerPlanningOfDayId" layoutX="280.0" layoutY="577.0" mnemonicParsing="false" onAction="#AnnulerPlanningOfDay" text="revenir Planning" />
+      <ScrollPane fx:id="ScrollPaneIds" layoutX="17.0" layoutY="30.0" prefHeight="531.0" prefWidth="367.0" style="-fx-background-color: #666666;">
+         <content>
+            <VBox fx:id="VBoxId" prefHeight="529.0" prefWidth="365.0" />
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

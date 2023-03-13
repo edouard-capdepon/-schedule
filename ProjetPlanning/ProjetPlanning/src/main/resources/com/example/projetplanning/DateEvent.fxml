@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="AnchorPaneDateEventId" prefHeight="187.0" prefWidth="253.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projetplanning.DateEventController">
+   <children>
+      <DatePicker fx:id="DatePickerDateEventId" editable="false" layoutX="46.0" layoutY="69.0" />
+      <Button fx:id="validerDateEvent" layoutX="46.0" layoutY="127.0" mnemonicParsing="false" onAction="#ValiderDateEvent" prefHeight="25.0" prefWidth="79.0" text="valider" />
+      <Button fx:id="annulerDateEvent" layoutX="141.0" layoutY="127.0" mnemonicParsing="false" onAction="#AnnulerDateEvent" prefHeight="25.0" prefWidth="79.0" text="annuler" />
+   </children>
+</AnchorPane>

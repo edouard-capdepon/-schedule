@@ -1,0 +1,166 @@
+#AddInBDDEvent{
+-fx-font-family : "Noto Serif", serif;
+    -fx-border-color: white;
+    -fx-border-width: 2;
+    -fx-background-radius:0;
+    -fx-background-color: #666666;
+    -fx-background-insets : 9px;
+	-fx-padding : 5px;
+	-fx-border-insets : 9px;
+	-fx-text-fill : white
+}
+#AddInBDDEvent:hover{
+-fx-background-color: #A9A9A9;
+	 -fx-scale-y : 1.1;
+	 -fx-effect- : dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0.0, 0, 1);
+}
+#AddInBDDEvent:pressed{
+-fx-scale-y : 0.9;
+	 -fx-scale-y : 0.9;
+}
+#annulerEventid{
+-fx-font-family : "Noto Serif", serif;
+    -fx-border-color: white;
+    -fx-border-width: 2;
+    -fx-background-radius:0;
+    -fx-background-color: #666666;
+    -fx-background-insets : 9px;
+	-fx-padding : 5px;
+	-fx-border-insets : 9px;
+	-fx-text-fill : white
+
+}
+#annulerEventid:hover{
+-fx-background-color: #A9A9A9;
+	 -fx-scale-y : 1.1;
+	 -fx-effect- : dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0.0, 0, 1);
+}
+#annulerEventid:pressed{
+-fx-scale-y : 0.9;
+	 -fx-scale-y : 0.9;
+}
+#AnchorPaneEventId{
+}
+#dateEventid{
+	-fx-background-color : #666666, white, white;
+	-fx-background-insets : 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+
+	}
+#dateEventid:focused{
+	-fx-background-color : #A9A9A9, white, white;
+	-fx-background-insets : 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+
+	}
+	#LabelTitreId{
+	-fx-font-family : "Noto Serif", serif;
+    	-fx-font-size : 13px;
+    	-fx-background-insets : 7px;
+    	-fx-padding : 9px;
+    	-fx-border-insets : 15px;
+	}
+	#labelHeureDebutId{
+	-fx-font-family : "Noto Serif", serif;
+        	-fx-font-size : 13px;
+        	-fx-background-insets : 7px;
+        	-fx-padding : 9px;
+        	-fx-border-insets : 15px;
+	}
+#labelDateId{
+-fx-font-family : "Noto Serif", serif;
+    	-fx-font-size : 13px;
+    	-fx-background-insets : 7px;
+    	-fx-padding : 9px;
+    	-fx-border-insets : 15px;
+
+}
+#labelHeureFinId{
+-fx-font-family : "Noto Serif", serif;
+    	-fx-font-size : 13px;
+    	-fx-background-insets : 7px;
+    	-fx-padding : 9px;
+    	-fx-border-insets : 15px;
+}
+
+#creerEventId{
+-fx-font-family : "Pacifico";
+	-fx-font-size : 30px;
+	-fx-alignment : center;
+	-fx-background-insets : 7px;
+	-fx-padding : 7px;
+	-fx-border-insets : 7px;
+}
+#labelSupprEventId{
+-fx-font-family : "Pacifico";
+	-fx-font-size : 30px;
+	-fx-alignment : center;
+	-fx-background-insets : 7px;
+	-fx-padding : 7px;
+	-fx-border-insets : 7px;
+}
+#labelSupprdescriptionId{
+-fx-font-family : "Noto Serif", serif;
+    	-fx-font-size : 15px;
+    	-fx-background-insets : 7px;
+    	-fx-padding : 9px;
+    	-fx-border-insets : 15px;
+}
+#goSupprEventAlerteId{
+-fx-font-family : "Noto Serif", serif;
+    -fx-border-color: white;
+    -fx-border-width: 2;
+    -fx-background-radius:0;
+    -fx-background-color: #666666;
+    -fx-background-insets : 9px;
+	-fx-padding : 5px;
+	-fx-border-insets : 9px;
+	-fx-text-fill : white
+}
+#goSupprEventAlerteId:hover{
+-fx-background-color: #A9A9A9;
+	 -fx-scale-y : 1.1;
+	 -fx-effect- : dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0.0, 0, 1);
+}
+#goSupprEventAlerteId:pressed{
+-fx-scale-y : 0.9;
+	 -fx-scale-y : 0.9;
+}
+#ButtonCreerAlerteId{
+-fx-font-family : "Noto Serif", serif;
+    -fx-border-color: white;
+    -fx-border-width: 2;
+    -fx-background-radius:0;
+    -fx-background-color: #666666;
+    -fx-background-insets : 9px;
+	-fx-padding : 5px;
+	-fx-border-insets : 9px;
+	-fx-text-fill : white
+}
+#ButtonCreerAlerteId:hover{
+-fx-background-color: #A9A9A9;
+	 -fx-scale-y : 1.1;
+	 -fx-effect- : dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0.0, 0, 1);
+}
+#ButtonCreerAlerteId:pressed{
+-fx-scale-y : 0.9;
+	 -fx-scale-y : 0.9;
+}
+#goDateEventId{
+-fx-font-family : "Noto Serif", serif;
+    -fx-border-color: white;
+    -fx-border-width: 2;
+    -fx-background-radius:0;
+    -fx-background-color: #666666;
+    -fx-background-insets : 9px;
+	-fx-padding : 5px;
+	-fx-border-insets : 9px;
+	-fx-text-fill : white
+}
+#goDateEventId:hover{
+-fx-background-color: #A9A9A9;
+	 -fx-scale-y : 1.1;
+	 -fx-effect- : dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0.0, 0, 1);
+}
+#goDateEventId:pressed{
+-fx-scale-y : 0.9;
+	 -fx-scale-y : 0.9;
+}

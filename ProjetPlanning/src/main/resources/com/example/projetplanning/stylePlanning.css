@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+#ButtonEvent{
+-fx-font-family : "Noto Serif", serif;
+    -fx-border-color: white;
+    -fx-border-width: 2;
+    -fx-background-radius:0;
+    -fx-background-color: #666666;
+    -fx-background-insets : 9px;
+	-fx-padding : 5px;
+	-fx-border-insets : 9px;
+	-fx-text-fill : white
+
+}
+#ButtonEvent:hover{
+-fx-background-color: #A9A9A9;
+	 -fx-scale-y : 1.1;
+	 -fx-effect- : dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0.0, 0, 1);
+}
+#ButtonEvent:pressed{
+        -fx-scale-y : 0.9;
+	 -fx-scale-y : 0.9;
+}
+
+#buttonid{
+-fx-font-family : "Noto Serif", serif;
+    -fx-border-color: white;
+    -fx-border-width: 2;
+    -fx-background-radius:0;
+    -fx-background-color:#666666;
+    -fx-background-insets : 9px;
+	-fx-padding : 5px;
+	-fx-border-insets : 9px;
+	-fx-text-fill : white
+
+
+}
+#buttonid:hover{
+-fx-background-color: #A9A9A9;
+	 -fx-scale-y : 1.1;
+	 -fx-effect- : dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0.0, 0, 1);
+}
+#buttonid:pressed{
+-fx-scale-y : 0.9;
+	 -fx-scale-y : 0.9;
+}
+#AnchorPanePlanningId{
+-fx-background-color: #FFFDFC;
+}
+
+.Label{
+-fx-font-family : "Noto Serif", serif;
+	-fx-font-size : 16px;
+	-fx-background-insets : 9px;
+	-fx-padding : 9px;
+	-fx-border-insets : 9px;
+}
+
+
+
+#myDatePicker{
+	-fx-primary-color: #666666;
+	-fx-secondary-color: #D3D3D3;
+	-fx-light-grey-color: #d1d1d1;
+
+	-fx-focus-color: -fx-secondary-color;
+}
+
+.date-picker .arrow-button {
+	-fx-background-color: -fx-primary-color;
+	-fx-background-radius: 0;
+}
+.date-picker .arrow-button:hover {
+	-fx-background-color: -fx-secondary-color;
+}
+.date-picker .arrow-button .arrow {
+	-fx-background-color: white;
+}
+.date-picker .cell {
+	-fx-background-color: white;
+}
+.date-picker .cell:hover {
+	-fx-background-color: -fx-light-grey-color;
+}
+.date-picker .cell:focused {
+	-fx-background-color: -fx-light-grey-color;
+}
+.date-picker .selected {
+	-fx-background-color: -fx-primary-color;
+	-fx-text-fill: white;
+}
+.date-picker .selected:focused {
+	-fx-background-color: -fx-primary-color;
+	-fx-text-fill: white;
+}
+.date-picker-popup  {
+	-fx-border-color: transparent;
+}
+.date-picker-popup .month-year-pane {
+	-fx-background-color: -fx-primary-color;
+}
+.date-picker-popup .month-year-pane .label {
+	-fx-text-fill: white;
+}
+.date-picker-popup .week-number-cell {
+	-fx-text-fill: -fx-secondary-color;
+}
+.date-picker-popup .spinner .button .left-arrow,
+.date-picker-popup .spinner .button .right-arrow {
+	-fx-background-color: white;
+}
+
+#AnchorPanePlanningId {
+    -fx-background-image:url('file:src/Image/Fond.jpg');
+	-fx-background-color : #C47745;
+	-fx-background-size : cover ;
+
+}
+.grid-pane{
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 22, 0, 0, 0);
+
+
+}
+#date-du-jour{
+    -fx-font-family : "Pacifico";
+}
+
+
